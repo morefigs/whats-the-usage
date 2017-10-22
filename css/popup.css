@@ -1,0 +1,68 @@
+body, table, td {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px
+}
+
+#icon1, #icon2 {
+    width: 22px;
+    /*height: 35px;*/
+    height: 20px;
+    vertical-align: top
+}
+
+#usageStats, #dayStats, #dateStats {
+    vertical-align: top
+}
+
+#container {
+    width: 170px;
+    height: 65px;
+
+    /*background: lightgray*/
+}
+
+#markers {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 160px;
+
+    /*background: lightseagreen*/
+}
+
+#blocksTotal {
+    position: absolute;
+    top: 10px;
+    left: 61px;
+    /*left: 63px;*/
+    width: 104px;
+    
+    /*background: pink*/
+}
+
+#blocksDaily {
+    position: absolute;
+    top: 10px;
+    left: 61px; 
+    /*left: 63px; */
+    width: 104px;
+    
+    /*background: tan*/
+}
+
+#stats {
+    position: absolute;
+    left: 5px;
+    /*width: 132px;*/
+    width: 160px;
+    height: 82px;
+
+    /*background: yellow*/
+}
+
+
+
+

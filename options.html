@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>WhatsTheUsage options</title>
+        <link rel="stylesheet" type="text/css" href="css/options.css">
+        <script type="text/javascript" src="js/options.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <h2>WhatsTheUsage</h2>
+            <h3>Account settings</h3>
+            <p> Your credentials are stored securely by Chrome and always sent using a secure connection.</p>
+            <table>
+                <tr> <td> Internet service provider&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td><select id="ISP"> <option value="internode">Internode</option></select></td> </tr>
+                <tr> <td> Username</td> <td><input id="username" type="text">@internode.on.net</td> </tr>
+                <tr> <td> Password</td> <td><input id="password" type="password"></td> </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <td> <button id="testButton">Test settings</button>&nbsp; </td>
+                    <td> <button id="saveButton">Save settings</button>&nbsp; </td>
+                    <td> <button id="openButton">Launch Internode site</button>&nbsp; </td>
+                </tr>
+            </table>
+            <p id="settingsStatus">&nbsp; </p>
+            <table id="details">
+                <tr> <td>Plan</td> <td id="detailPlan"></td> </tr>
+                <tr> <td>Quota</td> <td id="detailQuota"></td> </tr>
+                <tr> <td>Speed</td> <td id="detailSpeed"></td> </tr>
+                <tr> <td>Cost</td> <td id="detailCost"></td> </tr>
+                <tr> <td>Usage rating</td> <td id="detailRating"></td> </tr>
+                <tr> <td>Rollover date</td> <td id="detailRollover"></td> </tr>
+                <tr> <td>Excess charged</td> <td id="detailCharged"></td> </tr>
+                <tr> <td>Excess shaped</td> <td id="detailShaped"></td> </tr>
+                <tr> <td>Excess restricted access&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td id="detailRestricted"></td> </tr>
+            </table>
+        </div>
+    </body>
+</html>
+
